@@ -1,0 +1,18 @@
+{
+  "name": "the-pig-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "homepage": "http://RishirajKohli.github.io/pig-game",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "live-server": "^1.2.1"
+  }
+}
