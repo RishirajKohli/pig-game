@@ -68,7 +68,7 @@ btnHold.addEventListener('click', function () {
     document.getElementById(`score--${currentPlayer}`).textContent =
       playerScores[currentPlayer];
 
-    if (playerScores[currentPlayer] >= 50) {
+    if (playerScores[currentPlayer] >= 100) {
       currentPlayerEl.classList.add('player--winner');
       currentPlayerEl.firstElementChild.textContent = `Player ${
         currentPlayer + 1
